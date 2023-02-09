@@ -27,6 +27,7 @@ export const App = () => {
 
   return (
     <>
+      <h1>Slide cards</h1>
       <div className="container">
         {active.map((act, i) => (
           <div
